@@ -7,7 +7,7 @@
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build": "node --max_old_space_size=4096 $(which vite) build"
+    "build": "node --max_old_space_size=8192 $(which vite) build"
   },
   "dependencies": {
     "@firebase/auth": "^1.8.1",
