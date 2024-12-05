@@ -12,11 +12,11 @@ export default defineConfig({
   build: {
     minify: 'esbuild',
     rollupOptions: {
-      external: ['lottie-web','axios'],
+      external: ['lottie-web'],
       output: {
         manualChunks: {
           // Split vendors into a separate file
-          vendor: ['react', 'react-dom', 'axios', 'lottie-react'],
+          vendor: ['react', 'react-dom', 'lottie-react'],
         },
       },
     },
