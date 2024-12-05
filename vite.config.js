@@ -16,7 +16,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           // Split vendors into a separate file
-          vendor: ['react', 'react-dom', 'lottie-react'],
+          vendor: ['react', 'react-dom'],
         },
       },
     },
