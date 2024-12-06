@@ -54,9 +54,9 @@ Follow these steps to set up the project locally:
 4. Configure Firebase:
 Create a firebase.jsx file in the root directory and add the following Firebase configuration:
 
-    apiKey: "AIzaSyBGoXrjiqhzFH2xfbjNjF2Blibjqqu6aKc",
+    apiKey: "",
     authDomain: "foodapp-e0284.firebaseapp.com",
-    projectId: "foodapp-e0284",
+    projectId: "",
     storageBucket: "foodapp-e0284.appspot.com",
     messagingSenderId: "384116941731",
     appId: "1:384116941731:web:7fd743ea4cd6a9985e3016",
@@ -74,7 +74,7 @@ Create a firebase.jsx file in the root directory and add the following Firebase 
 
  Run Locally
 
- 1. Visit http://localhost:3000 after starting the development server.
+ 1. Visit (https://bitebuzz0070.netlify.app/) after starting the development server.
  2. Sign up or log in using Firebase authentication.
  3. Browse the app, toggle between light and dark modes, and enjoy personalized recipe suggestions.
  4. Access the admin panel (admin privileges required) to manage user data and client requests.
