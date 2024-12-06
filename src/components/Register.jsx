@@ -51,7 +51,7 @@ const Register = () => {
                         <label className='block '>Name</label>
                         <input 
                             type='text' 
-                            className='w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500'
+                            className='w-full px-3 py-2 border rounded-md text-black focus:outline-none focus:ring-2 focus:ring-orange-500'
                             placeholder='Enter Name'
                             onChange={(e) => setname(e.target.value)}
                         />
@@ -61,7 +61,7 @@ const Register = () => {
                         <label className='block '>Email</label>
                         <input 
                             type='email' 
-                            className='w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500'
+                            className='w-full px-3 py-2 border rounded-md text-black focus:outline-none focus:ring-2 focus:ring-orange-500'
                             placeholder='Enter Email'
                             onChange={(e) => Setemail(e.target.value)}
                         />
@@ -70,7 +70,7 @@ const Register = () => {
                         <label className='block '>Phn Number</label>
                         <input 
                             type='number' 
-                            className='w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500'
+                            className='w-full px-3 py-2 border text-black rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500'
                             placeholder='Enter Phn Number'
                             onChange={(e) => SetphnNum(e.target.value)}
                         />
@@ -80,7 +80,7 @@ const Register = () => {
                         <label className='block '>Password</label>
                         <input 
                             type='password' 
-                            className='w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500'
+                            className='w-full px-3 py-2 border rounded-md text-black focus:outline-none focus:ring-2 focus:ring-orange-500'
                             placeholder='Enter Password'
                             onChange={(e) => setpassword(e.target.value)}
                         />

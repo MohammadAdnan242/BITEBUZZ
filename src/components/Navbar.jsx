@@ -125,7 +125,7 @@ const handleLogout = async () => {
 
 
          <div className='ml-2 pl-2 w-full lg:w-[200px] md:my-0 my-7'>
-          <input type='search' name='search' id='' placeholder='Search here' className='p-2 border border-gray-400 text-sm rounded-lg outline-none ' autoComplete='off' onChange={(e)=>dispatch(setSearch(e.target.value))}>
+          <input type='search' name='search' id='' placeholder='Search here' className='p-2 border text-black border-gray-400 text-sm rounded-lg outline-none ' autoComplete='off' onChange={(e)=>dispatch(setSearch(e.target.value))}>
           </input>
         </div>
 

@@ -49,7 +49,7 @@ const Signin = () => {
                         <input 
                             type='email' 
                             value={email} 
-                            className='w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500'
+                            className='w-full px-3 py-2 text-black border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500'
                             placeholder='Enter Email'
                             onChange={(e) => SetEmail(e.target.value)}
                         />
@@ -61,7 +61,7 @@ const Signin = () => {
                         <input 
                             type='password' 
                             value={pass} 
-                            className='w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500'
+                            className='w-full px-3 py-2 text-black border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500'
                             placeholder='Enter Password'
                             onChange={(e) => setpassword(e.target.value)}
                             required
